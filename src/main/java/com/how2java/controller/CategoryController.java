@@ -35,7 +35,9 @@ public class CategoryController {
 		mav.addObject("cs", cs);
 		// 放入jsp路径
 		mav.setViewName("listCategory");
+		System.out.println("only shit");
 		return mav;
+		
 	}
 
 }
